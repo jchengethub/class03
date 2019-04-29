@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbMessage: UILabel!
+    
+    @IBAction func btnTestClicked(_ sender: UIButton) {
+        
+        lbMessage.text = "Xcode"
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
